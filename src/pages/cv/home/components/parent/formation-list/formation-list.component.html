@@ -1,0 +1,5 @@
+<h2 class="text-uppercase text-light-grey title-size">{{ title }}</h2>
+
+@for (formationElement of formationList; track formationElement.id) {
+    <app-formation [formation]="formationElement"/>
+}

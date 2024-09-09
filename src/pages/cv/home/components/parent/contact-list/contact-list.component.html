@@ -1,0 +1,5 @@
+<h2 class="text-uppercase text-yellow title-size">{{ title }}</h2>
+
+@for (contactElement of contactList; track contactElement.id) {
+    <app-contact [contact]="contactElement"/>
+}

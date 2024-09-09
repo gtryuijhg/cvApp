@@ -1,0 +1,5 @@
+<h2 class="text-uppercase text-yellow title-size">{{ title }}</h2>
+
+@for (hobbieElement of hobbieList; track hobbieElement.id) {
+    <app-hobbie [hobbie]="hobbieElement"/>
+}
