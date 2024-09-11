@@ -1,0 +1,7 @@
+<button class="text-uppercase" (click)="clickOnSkill()" (mouseover)="hoverOnSkill()">{{ skill.title }}</button>
+
+@if (skillIsShowed) {
+  @for (skill of skill.content; track skill) {
+    <p>{{ skill }}</p>
+  }
+}

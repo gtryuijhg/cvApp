@@ -12,31 +12,24 @@ export class SkillComponent {
 
   @Input() skill!: Skill;
 
-  userHasClicked!: boolean;
   skillIsShowed!: boolean;
 
   hoverOnSkill(): void {
-    this.showSkill();
-  }
-
-  outOfSkill(): void {
-    if (!this.userHasClicked) {
-      this.hideSkill();
+    if (!this.skillIsShowed) {
+      this.showSkill();
     }
   }
 
   clickOnSkill(): void {
-    if (this.userHasClicked) {
+    if (this.skillIsShowed) {
       this.hideSkill();
     } else {
       this.showSkill();
-      this.userHasClicked = true;
     }
   }
 
   hideSkill(): void {
     this.skillIsShowed = false;
-    this.userHasClicked = false;
   }
 
   showSkill(): void {
