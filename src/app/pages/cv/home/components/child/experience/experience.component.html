@@ -1,14 +1,14 @@
 <section class="flex-container width-80">
     <article class="width-30">
         <p class="text-bold">{{ experience.dates }}</p>
-        <p class="text-bold text-dark-grey">{{ experience.location }}</p>
+        <p class="text-bold">{{ experience.location }}</p>
     </article>
     <article class="width-70">
-        <p class="text-uppercase text-bold">{{ experience.title }}</p>
+        <p class="text-bold">{{ experience.title }}</p>
         
         @for (mission of experience.missionList; track mission) {
             <ul>
-                <li class="text-light-grey">{{ mission }}</li>
+                <li>{{ mission }}</li>
             </ul>
         }  
     </article>

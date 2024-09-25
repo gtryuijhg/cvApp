@@ -15,7 +15,6 @@ export class SkillListService {
         'CSS',
         'Bootstrap',
         'Javascript',
-        'Jquery',
         'Angular'
       ]
     ),
@@ -27,37 +26,23 @@ export class SkillListService {
         'SQL',
         'JAVA',
         'JEE',
-        'Spring',
         'Springboot',
-        'Symfony',
-        'Doctrine',
         'Hibernate'
       ]
     ),
     new Skill(
       3,
-      'Versionning',
-      [
-        'GIT',
-        'CVS'
-      ]
-    ),
-    new Skill(
-      4,
       'Outils',
       [
-        'Sublime Text',
-        'RAD',
-        'Eclipse',
+        'GIT',
         'Spring Tool Suite',
-        'Visual studio Code'
-      ]
-    ),
-    new Skill(
-      5,
-      'Langues',
-      [
-        'Anglais niveau B1'
+        'Visual Studio Code',
+        'Méthode Agile',
+        'CANBAN',
+        'Trello',
+        'Postman',
+        'Terminal',
+        'SonarQube'
       ]
     )
   ];

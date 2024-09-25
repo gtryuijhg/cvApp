@@ -22,19 +22,17 @@ export class ExperienceListService {
       '2/12/2019 - 1/12/2020',
       'CGI, Carquefou',
       [
-        'Développement logiciel : Création de webservices en JEE et de scripts SQL',
-        'Changement d\'organisation de base de données et refactorisation de code',
-        'Outils : CANBAN, méthode agile, SonarQube, Postman, Trello, RAD'
+        'Réorganisation d\'une base de données : Création de scripts SQL et refactorisation de code',
+        'Ajout de fonctionnalités sur un logiciel : Création d\'un webservice et tests'
       ]
     ),
     new Experience(
       3,
       'Stage - Développeur web',
-      '20/03/2017 - 24/03/2017',
+      '03/2017',
       'SII, Bouguenais',
       [
-        'Découverte du métier de développeur',
-        'Outils : CANBAN, SonarQube, Jenkins, Terminal'
+        'Découverte du métier de développeur'
       ]
     )
   ];

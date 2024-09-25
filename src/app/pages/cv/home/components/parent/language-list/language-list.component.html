@@ -1,0 +1,5 @@
+<h2 class="text-uppercase text-yellow title-size">{{ title }}</h2>
+
+@for (languageElement of languageList; track languageElement.id) {
+    <app-language [language]="languageElement"/>
+}

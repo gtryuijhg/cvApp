@@ -9,7 +9,7 @@ export class ProfileListService {
   private profileList: Profile[] = [
     new Profile(
       1,
-      ['Déterminé sérieux et autonome, je recherche une entreprise pour débuter ma carrière avec une formation en alternance.']
+      ['Après une reconversion dans la logistique, je recherche une entreprise pour débuter ma carrière avec une formation BAC+5 en alternance en informatique avec l\'EPSI']
     )]
   ;
 

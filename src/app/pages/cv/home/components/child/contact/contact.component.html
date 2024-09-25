@@ -1,1 +1,3 @@
-<p>{{ contact.resume }}</p>
+@for (info of contact.infoList; track info) {
+    <p>{{ info }}</p>
+}

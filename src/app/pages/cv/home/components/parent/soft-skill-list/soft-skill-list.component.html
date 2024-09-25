@@ -1,0 +1,5 @@
+<h2 class="text-uppercase text-yellow title-size">{{ title }}</h2>
+
+@for (softSkillElement of softSkillList; track softSkillElement.id) {
+    <app-soft-skill [softSkill]="softSkillElement"/>
+}
