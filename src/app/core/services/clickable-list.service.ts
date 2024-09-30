@@ -15,7 +15,7 @@ export class ClickableListService {
     ),
     new Clickable(
       2,
-      'Accessfirst',
+      'Assessfirst',
       'https://app.assessfirst.com/_/profile/a4b5efd1-gregoire-huteau?lang=fr-FR'
     ),
     new Clickable(
