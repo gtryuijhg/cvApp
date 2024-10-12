@@ -14,7 +14,7 @@ export class ContactListService {
         'Mobilité : Pays de la Loire',
         'gregoire.huteau@hotmail.com',
         '06 36 67 24 50',
-        'Permis B'
+        'Permis B, Voiture'
       ]
     )
   ];
