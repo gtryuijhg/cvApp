@@ -15,14 +15,14 @@ export class FormationListService {
     ),
     new Formation(
       2,
-      'Concepteur Développeur d\'Applications Numériques',
+      'Bachelor Bac+3 Concepteur Développeur d\'Applications Numériques',
       'Alternance Décembre 2019 / Décembre 2020',
       'EPSI Nantes, île de Nantes'
     ),
     new Formation(
       3,
       'Développeur intégrateur en réalisation d\'applications web',
-      'POEC Juillet 2017 / Septembre 2017',
+      'POEC Niveau Bac+2 Juillet 2017 / Septembre 2017',
       'Sigma 2000 Nantes, île de Nantes'
     )
   ];
