@@ -9,7 +9,7 @@ export class ExperienceListService {
   private experienceList: Experience[] = [
     new Experience(
       1,
-      'Alternance - Opérateur logistique',
+      'Opérateur logistique',
       '23/08/2021 - 31/08/2023',
       'Le Breton Outillage, Carquefou',
       [
@@ -28,11 +28,15 @@ export class ExperienceListService {
     ),
     new Experience(
       3,
-      'Stage - Développeur web',
-      '03/2017',
-      'SII, Bouguenais',
+      'Aide en boulangerie - pâtisserie',
+      '07/2016 - Aujourd\'hui',
+      'Les Jardins des Délices, Drain',
       [
-        'Découverte du métier de développeur'
+        'Préparation de pâtes pour viennoiseries et pains',
+        'Préparation de pâtes et crèmes pour pâtisseries',
+        'Façonnage de viennoiseries',
+        'Livraisons de pains',
+        'Entretien des locaux'
       ]
     )
   ];
